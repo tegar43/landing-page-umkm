@@ -22,8 +22,8 @@ img {
     object-fit: cover;
   }
   
-  .hero_area {
-    min-height: auto;
+.hero_area {
+    min-height: 100vh; /* Mengunci tinggi layar agar selalu full 100% dan stabil */
   }
 
   .custom_nav-container .navbar-nav {
